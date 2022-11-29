@@ -1,0 +1,206 @@
+body {
+	font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+	background: radial-gradient(100% 100% at 50% 100%,#363a42 0,#26282d 57.86%,#222427 100%);
+	background-size: cover;
+	background-repeat: no-repeat;
+    color: #dc143c;
+	height: 940px;
+}
+
+
+
+.wrapper {
+	width: 100%;
+	max-width: 1350px;
+	margin: 0 auto;
+	box-sizing: border-box;
+}
+
+.header-content {
+	
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.logo {
+	font-size: 40px;
+}
+
+.logo:hover{
+	scale: 1.02;
+	transition: 0.2s;
+}
+
+.sublogo {
+	text-decoration: none;
+	color: #dc143c;
+}
+
+.nav {
+	text-transform: uppercase;
+	font-size: 15px;
+}
+
+.navlink {
+	
+	text-decoration: none;
+	color:  crimson;
+	display: inline-block;
+	vertical-align: top;
+	margin: 0 15px;
+}
+
+.navlink:hover {
+	scale: 1.02;
+	transition: 0.2s;
+	color: rgb(255, 255, 255);
+}
+
+.content {
+	display: flex;
+	align-items: center;
+}
+
+.main {
+	margin-top: 60px;
+	display: flex;
+	justify-content: space-evenly;
+
+}
+
+.title {
+	font-size: 56px;	
+}
+
+.btn1 {
+	color: white;
+	margin: 20px;
+	font-size: 20px;
+	border-radius: 20px;
+	border: none;
+	background-color: #dc143c;
+	padding: 15px;
+}
+
+.btn2 {
+	color: white;
+	margin: 20px;
+	font-size: 20px;
+	border-radius: 20px;
+	border: none;
+	background-color: #222325;
+	padding: 15px;
+}
+
+.btn1:focus-visible {
+	outline: none;
+}
+.btn1:hover {
+	transition: all 0.2s;
+	color: black;
+	background-color: #ffffff;
+	cursor: pointer;
+}
+.btn1:active {
+	background: #ffe9e9;
+	transform: translate(0em, 0.50em);
+}
+.btn1:disabled {
+	background-color: #dc143c;
+	color: #ffffff;
+	cursor: not-allowed;
+}
+
+.btn2:focus-visible {
+	outline: none;
+}
+.btn2:hover {
+	transition: all 0.2s;
+	color: black;
+	background-color: #ffffff;
+	cursor: pointer;
+}
+.btn2:active {
+	background: #ffe9e9;
+	transform: translate(0em, 0.50em);
+}
+.btn2:disabled {
+	background-color: #dc143c;
+	color: #ffffff;
+	cursor: not-allowed;
+}
+
+.content_catalog {
+	margin-top: 100px;
+	padding: 20px;
+	border-radius: 20px;
+}
+
+.blocks_catalog {
+	display: flex;
+	justify-content: space-between;
+	color: #222325;
+}
+
+.con_block {
+	max-width: 280px;
+	max-height: 430px;
+	font-size: 20px;
+	font-weight: bold;
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	align-items: center;
+	background-color: #dc143c;
+	padding: 10px;
+	border-radius: 20px;
+	text-align: center;
+}
+
+.con_block:hover {
+	transform: scale(1.05);
+	transition: 0.2s;
+}
+
+.txt_blck {
+	font-size: 14px;
+	font-weight: lighter;
+	margin-top: 5px;
+	max-width: 290px;
+}
+
+.buy {
+	border-radius: 13px;
+	margin-top: 20px;
+	padding: 7px;
+	color: #ffffff;
+	font-size: 14px;
+	font-weight: lighter;
+	margin-left: 180px;
+	background-color: #222427;
+	border: none;
+}
+
+.buy:hover {
+	color: #222325;
+	background-color: #ffffff;
+	cursor: pointer;
+}
+
+.maps {
+	margin-top: 150px;
+	display: flex;
+	justify-content: space-between;
+	padding: 70px;
+	background-color: #dc143c;
+	border-radius: 50px;
+
+}
+
+.txt_contact {
+	font-size: 20px;
+	color: #ffffff;
+	font-weight: lighter;
+}
+
